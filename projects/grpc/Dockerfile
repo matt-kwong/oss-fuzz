@@ -27,7 +27,7 @@ RUN apt-get -y install  \
 	make            \
         curl            \
         autoconf        \
-        libtool
+        libtool         
 
 # Install Bazel
 RUN echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | tee /etc/apt/sources.list.d/bazel.list
